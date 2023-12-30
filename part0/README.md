@@ -2,5 +2,5 @@
 
 ```mermaid
 graph TD;
-user-->input-->new text;
+user-->input-->new_text;
 ```
