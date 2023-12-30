@@ -12,8 +12,5 @@ C-->D;
 ```mermaid
 graph TD;
 USER-->B;
-A-->C;
-B-->D;
-C-->D;
 
 ```
