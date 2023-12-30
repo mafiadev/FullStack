@@ -4,7 +4,7 @@
 graph TD;
 user-->browser;
 browser-->server;
-server-->broser;
-broser-->user;
+server-->browser;
+browser-->user;
 input-->server;
 ```
