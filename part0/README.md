@@ -2,6 +2,8 @@
 
 ```mermaid
 graph TD;
-USER-->browser;
+user-->browser;
 browser-->server;
+user-->input;
+input-->server;
 ```
