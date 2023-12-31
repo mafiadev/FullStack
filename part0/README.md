@@ -1,11 +1,11 @@
 ## Diagram
 
-``` mermaid
+```mermaid
 graph TD;
 user-->input-->new_text;
 ```
 
-``` fullStack
+```fullStack
 graph TD;
 user-->input-->new_text;
 ```
