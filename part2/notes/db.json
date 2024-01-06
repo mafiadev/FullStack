@@ -1,0 +1,40 @@
+{
+  "notes": [
+    {
+      "content": "a new Note",
+      "date": "2024-01-06T13:54:56.285Z",
+      "important": true,
+      "id": 1
+    },
+    {
+      "content": "a new Note",
+      "date": "2024-01-06T13:58:27.372Z",
+      "important": true,
+      "id": 2
+    },
+    {
+      "content": "asdasd as asd asd aasd asd asd asd aws dasd a",
+      "date": "2024-01-06T14:00:04.252Z",
+      "important": true,
+      "id": 3
+    },
+    {
+      "content": "asdasd as asd asd aasd asd asd asd aws dasd a",
+      "date": "2024-01-06T14:00:04.280Z",
+      "important": false,
+      "id": 4
+    },
+    {
+      "content": "asd asd asd asd as as as as das",
+      "date": "2024-01-06T14:00:07.881Z",
+      "important": false,
+      "id": 5
+    },
+    {
+      "content": "a new Note",
+      "date": "2024-01-06T16:57:08.735Z",
+      "important": true,
+      "id": 6
+    }
+  ]
+}
