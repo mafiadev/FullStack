@@ -4,9 +4,26 @@ h1 {
 }
 
 .note {
-    color: grey;
-    padding-top: 5px;
-    font-size: 15px;
+    color: rgb(39, 31, 112);
+    margin-top: 1em;
+    font-size: 1.2em;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.note button {
+    margin-left: 0.5em;
+    background-color: cornflowerblue;
+    border: none;
+    padding: 0.5em;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.note button:hover {
+    cursor: pointer;
 }
 
 .error {

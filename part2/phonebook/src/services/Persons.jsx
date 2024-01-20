@@ -22,4 +22,9 @@ const deletePerson = id => {
     return request.then(response => response.statusText)
 }
 
-export default { getAll, create, update, deletePerson }
+const searchNameLike = str => {
+    const request = axios.get(`${url}?name_like=${str}`)
+    return request.then(response => response.data)
+}
+
+export default { getAll, create, update, deletePerson, searchNameLike }

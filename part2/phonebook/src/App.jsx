@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import axios from "axios"
+import "./App.css"
 
 import PersonsService from './services/Persons'
 import Filter from './Filter'
 
 const Persons = ({ persons, handleClick }) => {
-  return (persons.map(person => <p key={person.id}>{person.name} | {person.number} <button onClick={() => handleClick(person.id)} >DELETE</button></p>))
+  return (persons.map(person => <p className='person' key={person.id}><span className='person-name'>{person.name}</span> | {person.number} <button onClick={() => handleClick(person.id)} >DELETE</button></p>))
 }
 
 const PersonForm = (props) => {
@@ -95,14 +96,10 @@ const App = () => {
   }
 
   const handleFilter = (e) => {
-    setPersons([])
-
-    const newPerson = {
-      name: "Marcos",
-      number: "640 44 04 48"
-    }
-
-    setPersons(persons.concat(newPerson))
+    let searchStr = e.target.value
+    PersonsService
+      .searchNameLike(searchStr)
+      .then(persons => setPersons(persons))
   }
 
   const personDelete = personId => {

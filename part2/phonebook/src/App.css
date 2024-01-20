@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.person {
+    color: blue;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.person::before {
+    content: '♦';
+    margin-right: 0.5em;
+    color: black;
+}
+
+.person-name {
+    color: chocolate;
+    text-transform: uppercase;
+}
+
+.person button {
+    padding: 0.5em;
+    border: none;
+    color: white;
+    background-color: crimson;
+    cursor: pointer;
+}
